@@ -56,8 +56,11 @@ export default function HamaPage() {
                 scientifictName: item.scientifictName,
                 image: `${item.image}`,
                 description: item.description,
-                nonChemicalSolution: item.nonChemicalSolution,
+                nonChemicalSolutionNature: item.nonChemicalSolutionNature,
+                nonChemicalSolutionMixture: item.nonChemicalSolutionMixture,
                 chemicalSolution: item.chemicalSolution,
+                nonChemicalProduce: item.nonChemicalProduce,
+                nonChemicalTips: item.nonChemicalTips
               });
             }}
           >
