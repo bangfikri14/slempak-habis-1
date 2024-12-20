@@ -1,0 +1,18 @@
+[
+  { "id": "1", "label": "Daun berlubang atau bolong-bolong" },
+  { "id": "2", "label": "Daun kubis hanya tinggal tulangnya" },
+  { "id": "3", "label": "Terdapat bercak putih pada lapisan atas daun" },
+  { "id": "4", "label": "Daun berwarna hijau pucat" },
+  {
+    "id": "5",
+    "label": "Daun layu pada siang hari dan kembali segar pada siang hari"
+  },
+  {
+    "id": "6",
+    "label": "Larva muda bergerombol pada permukaan bawah daun kubis"
+  },
+  { "id": "7", "label": "Terdapat gigitan larva pada pangkal batang" },
+  { "id": "8", "label": "Tanaman kubis tidak membentuk krop" },
+  { "id": "9", "label": "Daun keriput dan melengkung ke bawah" },
+  { "id": "10", "label": "Daun menguning" }
+]

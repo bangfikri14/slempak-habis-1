@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "title": "Pengolahan Tanah",
+    "description": "Pengolahan tanah dilakukan dengan cara membalikan tanah agar gembur sekaligus memperbaiki aerasi tanah. Jika tanah dengan kondisi asam (ph < 5), maka perlu diberi kapur pertanian dengan dosis kurang lebih 2ton/ha."
+  },
+  {
+    "id": "2",
+    "title": "Persiapan Bibit",
+    "description": "Persemaian dilakukan pada media yang baik terdiri dari campuran tanah dan pupuk kandang yang halus (kompos) dengan perbandingan 1:1 benih disebar dengan merata dan ditutup selama 3 HSS (Hari Setelah Semai). Setelah 4 HSS, penutup persemaian dibuka/diganti dengan polinet. Pada saat 8 HSS dipindahkan ke polibag sampai tanaman berumur 17 HSS, setelah 17 HSS - 21 HSS tanaman siap dipindahkan ke lapangan. "
+  },
+  {
+    "id": "3",
+    "title": "Persiapan Lahan",
+    "description": "Bedengan dibuat dengan cara menaikkan tanah setinggi 30 cm lebar 1 m dan panjang disesuaikan dengan kondisi lahan, jarak antar bedengan 50-60 cm. Pemberian pupuk kandang dengan cara ditaburkan diatas bedengan yang telah dibuat sebelumnya, dengan dosis 1000 karung/Ha. Setelah bedengan ditaburi pupuk kandang lakukan proses penutupan pupuk kandang dengan menaikan tanah dan bentukan bedengan sebelum ditutup mulsa. Pemasangan mulsa dilakukan setelah bedengan terbentuk, pada siang hari saat terik matahari agar elastisitas mulsa tinggi. Setelah mulsa terpasang kemudian lakukan penyemplongan atau pembuatan lubang tanam sesuai dengan jarak tanaman 50 cm X 70 cm."
+  },
+  {
+    "id": "4",
+    "title": "Pemeliharaan",
+    "description": "Pemupukan dilakukan pada tanaman 7-14 hst dengan interval 10 hari selama 6 kali dengan cara di cor. Pupuk yang digunakan yaitu pupuk NPK/disesuaikan dengan fase tanaman, dengan cara dilarutkan dosis 2-4 Kg/200 L. Setiap tanaman diberikan larutan pupuk sebanyak 200 ml. Pengendalian hama penyakit dilakukan pada tanaman mulai berumur 7-10 hari sebelum panen interval penyemprotan 7 hari x/disesuaikan musim. Untuk pengendalian hama ulat plutella atau crosi bisa menggunakan insektisida berbahan aktif spineteram atau emamectin benzoat dan untuk pengendalian penyakit bisa menggunakan fungisida berbahan aktif propineb atau mancozeb."
+  },
+  {
+    "id": "5",
+    "title": "Pemanenan",
+    "description": "Panen dilakukan pada saat tanaman telah berumur 80-90 HST atau disesuaikan dengan kondisi pembentukan crop sudah padat, Umumnya kubis membutuhkan waktu sekitar empat hingga enam bulan untuk mencapai kematangan, tergantung pada jenisnya. Panen kubis setelah kubis membentuk kepala kubis yang kokoh sesuai ukuran yang Anda inginkan . Sebaiknya panen kubis satu per satu di sepanjang barisan kubis pada awalnya, agar kubis yang tersisa tumbuh lebih besar."
+  }
+]

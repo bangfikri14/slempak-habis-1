@@ -1,0 +1,99 @@
+[
+  {
+    "id": "1",
+    "name": "Ulat Daun Kubis",
+    "scientifictName": "Plutella Xylostella",
+    "image": "ulat-daun-kubis.jpg",
+    "description": "Ulat daun kubis (Plutella Xylostella) berwarna hijau muda. Panjang larva kira-kira 1 cm, ulat bergerak aktif dan jika tersentuh akan menjatuhkan diris erta menggantungkan diri dengan benang halus. Serangga dewasa berupa ngengat kecil, kira-kira 6 mm panjangnya, berwarna abu/hijau bening dan aktif pada malam hari. Ulat memakan permukaan bawah daun-daun sehingga terjadi lubang-lubang pada daun. Jumlah ulat tinggi di musim kemarau atau apabila keadaan cuaca kering selama beberapa minggu. Jumlah ulat yang tinggi terjadi setelah kubis berumur 6-8 minggu.",
+    "nonChemicalSolution": [
+      "Petik serangga dengan tangan. Saat tanaman masih muda atau hanya ada beberapa larva, petik larva dan telurnya dengan tangan.",
+      "Gunakan penutup baris. Setelah tanaman bebas serangga atau sebelum tanaman terserang hama di musim semi, tutupi tanaman dengan salah satu penutup baris yang tipis, yang akan mencegah ngengat dewasa bertelur di tanaman.",
+      "Tanam varietas yang toleran. Varietas kubis hijau, 'Green Winter', 'Savoy', dan 'Savoy Chieftain', semuanya menunjukkan ketahanan terhadap serangan ulat kubis. Varietas kubis merah umumnya kurang disukai oleh ulat kubis.",
+      "Sanitasi musim gugur. Bersihkan dan buang semua sisa tanaman setelah panen untuk membuang pupa serangga yang melewati musim dingin.",
+      "Memanfaatkan pestisida alami untuk mengatasi organisme penganggu tanaman pada kubis menggunakan mengkudu cara pembuatan bahan-bahan extra halus buah mengkudu matang,daun nangka,dan daun tembakau 25gr, air 75ml,detergen 5gr cara membuat campurkan extra halus seluruh bahan dengan air dan detergen lalu aduk hingga rata,peram selama semalam sebelum digunakan dan saring larutan pestisida dan letakan didalam semprotan pestisida mengkudu siap digunakan."
+    ],
+    "chemicalSolution": [
+      "Gunakan sabun insektisida atau semprotan Bt. Ulat dapat dikendalikan dengan menggunakan sabun insektisida atau Bacillus thuringiensis (Bt). Bt adalah bakteri yang menyebabkan ulat menjadi sakit dan mati. Mungkin perlu beberapa hari sebelum serangga mati, tetapi pemberian makan biasanya berhenti segera setelah penyemprotan. Ulat berukuran kecil lebih mudah dikendalikan dengan Bt daripada yang berukuran besar.",
+      "Gunakan semprotan insektisida. Insektisida umum yang mengendalikan ulat kubis meliputi piretrin, siflutrin, minyak nimba, dan spinosad."
+    ],
+    "nonChemicalTips": [
+      "Semprotkan pada pagi atau sore hari.",
+      "Ulangi penyemprotan setiap 3-4 hari sekali.",
+      ""
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Ulat Tanah",
+    "scientifictName": "Agrotis ipsilon",
+    "image": "ulat-tanah.jpg",
+    "description": "Ulat tanah merupakan hama yang menyerang pada fase larva dan dapat merusak tanaman kubis dengan cara memakan akar atau batang tanaman. Larva ulat tanah berwarna coklat keabu-abuan dan dapat mencapai panjang sekitar 4-5 cm. Mereka aktif pada malam hari dan bersembunyi di tanah pada siang hari. Serangan ulat tanah menyebabkan tanaman menjadi layu dan mudah mati karena rusaknya sistem perakaran. Hama ini lebih banyak ditemukan pada musim kemarau atau saat tanah kekurangan kelembaban.",
+    "nonChemicalSolution": [
+      "Membersihkan sisa-sisa tanaman dan gulma di sekitar lahan sebelum tanam.",
+      "Melakukan pengolahan tanah yang dalam untuk mematikan larva yang bersembunyi.",
+      "Menggunakan perangkap lampu di malam hari untuk menangkap ngengat dewasa.",
+      "Memanfaatkan predator alami seperti burung pemakan serangga atau parasitoid."
+    ],
+    "chemicalSolution": [
+      "Dilakukan penyemprotan insektisida berbahan aktif profenofos, klorpirifos, sipermetrin, betasiflutrin atau lamdasihalortrin. Dosis/konsentrasi sesuai dengan petunjuk pada kemasan."
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Ulat Krop",
+    "scientifictName": "Crocidolomia pavonana F.",
+    "image": "ulat-krop.jpg",
+    "description": "Ulat krop atau lebih dikenal dengan nama ulat penggerek kubis, adalah hama yang sering menyerang tanaman kubis. Larva ulat krop berwarna hijau kekuningan dan memiliki panjang sekitar 1-2 cm. Mereka menyerang bagian krop (inti) tanaman dengan cara menggerek bagian dalam krop, menyebabkan kerusakan yang signifikan pada tanaman. Hama ini juga berpotensi menyebabkan infeksi jamur atau bakteri yang memperburuk kerusakan tanaman. Ulat krop biasanya muncul pada musim hujan atau pada kondisi tanaman yang kurang sehat.",
+    "nonChemicalSolution": [
+      "Menanam varietas kubis yang lebih tahan terhadap hama.",
+      "Menutup tanaman dengan jaring pelindung untuk mencegah ngengat bertelur.",
+      "Mengumpulkan dan memusnahkan larva atau pupa yang ditemukan di tanaman.",
+      "Memberikan pupuk organik untuk meningkatkan kesehatan tanaman, sehingga lebih tahan terhadap serangan."
+    ],
+    "chemicalSolution": [
+      "Asefat",
+      "Karbaril",
+      "Klorantraniliprol",
+      "Abamektin",
+      "Bacillus thuringiensis var. aizawai"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Akar Gada",
+    "scientifictName": "Plasmodiophora brassicae Wor.",
+    "image": "akar-gada.jpg",
+    "description": "Akar gada adalah penyakit yang disebabkan oleh jamur patogen yang menyerang akar tanaman kubis. Penyakit ini sering disebut sebagai “klorosis akar” atau “klorosis kerdil.” Infeksi jamur ini menyebabkan pembengkakan pada akar tanaman, yang mengganggu penyerapan air dan nutrisi, sehingga tanaman menjadi layu dan pertumbuhannya terhambat. Akar gada banyak ditemukan pada tanah yang lembab dan tidak subur, serta pada tanah yang memiliki pH rendah. Pengendalian hama ini dilakukan dengan menjaga kualitas tanah dan melakukan rotasi tanaman.",
+    "nonChemicalSolution": [
+      "Mengatur rotasi tanaman dengan tanaman yang bukan inang (misalnya jagung atau padi) selama 3-4 tahun.",
+      "Menggunakan bibit yang sehat dan bebas dari penyakit.",
+      "Memastikan drainase lahan baik untuk menghindari genangan air.",
+      "Mengolah tanah dengan solarisasi menggunakan plastik transparan selama musim panas untuk membunuh spora jamur."
+    ],
+    "chemicalSolution": [
+      "Kapur pertanian (kalsium karbonat) untuk meningkatkan pH tanah.",
+      "Fumigan tanah seperti metam sodium untuk mengurangi keberadaan patogen.",
+      "Fosetil-Al atau metalaksil untuk mencegah infeksi sekunder."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Kutu Daun",
+    "scientifictName": "Aphidoidea",
+    "image": "kutu-daun.jpg",
+    "description": "Kutu daun adalah hama kecil yang sering ditemukan pada permukaan daun tanaman kubis. Hama ini berukuran sangat kecil, dengan panjang tubuh hanya sekitar 1-2 mm, dan memiliki warna yang bervariasi, mulai dari hijau hingga hitam. Kutu daun menghisap cairan dari daun, yang menyebabkan daun menjadi keriput, menguning, dan mengalami deformasi. Selain itu, kutu daun juga dapat menjadi vektor bagi virus tanaman, yang semakin memperburuk kerusakan. Hama ini dapat berkembang biak dengan sangat cepat, terutama pada musim kemarau atau cuaca yang panas. Pengendalian kutu daun dapat dilakukan dengan penggunaan insektisida atau dengan memanfaatkan predator alami seperti ladybird beetle.",
+    "nonChemicalSolution": [
+      "Menggunakan perangkap kuning lengket untuk menarik dan menangkap kutu daun.",
+      "Memperkenalkan predator alami seperti kepik (Coccinellidae) atau lacewings (Chrysopidae).",
+      "Menanam tanaman penghalang seperti marigold atau tanaman pengusir lainnya.",
+      "Menyemprot tanaman dengan larutan air sabun atau minyak nim sebagai pengendalian hayati."
+    ],
+    "chemicalSolution": [
+      "Imidakloprid",
+      "Dimetoat",
+      "Tiametoksam",
+      "Piriproksifen",
+      "Abamektin"
+    ]
+  }
+]
