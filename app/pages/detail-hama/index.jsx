@@ -17,9 +17,10 @@ export default function DetailHamaPage() {
     image,
     description,
     nonChemicalSolutionNature,
-    chemicalSolution,
+    nonChemicalSolutionMixture,
     nonChemicalProduce,
-    nonChemicalTips
+    nonChemicalTips,
+    chemicalSolution,
   } = useLocalSearchParams();
   const navigation = useNavigation();
 
@@ -71,7 +72,7 @@ export default function DetailHamaPage() {
               nonChemicalSolutionMixture: nonChemicalSolutionMixture,
               chemicalSolution: chemicalSolution,
               nonChemicalProduce: nonChemicalProduce,
-              nonChemicalTips: nonChemicalTips
+              nonChemicalTips: nonChemicalTips,
             });
           }}
         >
