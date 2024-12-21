@@ -93,6 +93,12 @@ export default function HasilDiagnosaPage() {
                   id: hamaData?.id,
                   name: hamaData?.name,
                   chemicalSolution: hamaData?.chemicalSolution,
+                  chemicalSolutionInsecticide:
+                    hamaData?.nonChemicalSolutionInsecticide,
+                  chemicalSolutionInsecticideSistemic:
+                    hamaData?.chemicalSolutionInsecticideSistemic,
+                  chemicalProduce: hamaData?.chemicalProduce,
+                  chemicalWarning: hamaData?.chemicalWarning,
                 });
               }}
             >

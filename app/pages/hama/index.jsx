@@ -58,9 +58,14 @@ export default function HamaPage() {
                 description: item.description,
                 nonChemicalSolutionNature: item.nonChemicalSolutionNature,
                 nonChemicalSolutionMixture: item.nonChemicalSolutionMixture,
-                chemicalSolution: item.chemicalSolution,
                 nonChemicalProduce: item.nonChemicalProduce,
-                nonChemicalTips: item.nonChemicalTips
+                nonChemicalTips: item.nonChemicalTips,
+                chemicalSolution: item?.chemicalSolution,
+                chemicalSolutionInsecticide: item?.chemicalSolutionInsecticide,
+                chemicalSolutionInsecticideSistemic:
+                  item?.chemicalSolutionInsecticideSistemic,
+                chemicalProduce: item?.chemicalProduce,
+                chemicalWarning: item?.chemicalWarning,
               });
             }}
           >
