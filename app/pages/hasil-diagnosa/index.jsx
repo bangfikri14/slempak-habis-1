@@ -24,65 +24,85 @@ export default function HasilDiagnosaPage() {
   };
 
   return (
-    <View style={{ flex: 1,justifyContent:"center",alignItems:"center",textAlign:"center" }}>
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        textAlign: "center",
+      }}
+    >
       {hamaData ? (
         <>
-        <ScrollView contentContainerStyle={{ padding: 20, paddingBottom: 100 }}>
-        <Text style={{ fontSize: 23, fontWeight: "bold", marginBottom: 10 }}>
-          {hamaData?.name ? hamaData?.name : "Kubis enak"}
-        </Text>
-        <Image
-          source={imageMap[hamaData?.image]}
-          style={{
-            width: 310,
-            height: 180,
-            marginBottom: 20,
-            margin: "auto",
-          }}
-        />
-        <Text style={{ fontSize: 18, fontWeight: "bold", marginBottom: 10 }}>
-          Nama Hama (Ilmiah): {hamaData?.scientifictName}
-        </Text>
-        <Text
-          style={{
-            fontSize: 18,
-            textAlign: "justify",
-            lineHeight: 28,
-          }}
-        >
-          Deskripsi Umum: {hamaData?.description}
-        </Text>
-      </ScrollView>
+          <ScrollView
+            contentContainerStyle={{ padding: 20, paddingBottom: 100 }}
+          >
+            <Text
+              style={{ fontSize: 23, fontWeight: "bold", marginBottom: 10 }}
+            >
+              {hamaData?.name ? hamaData?.name : "Kubis enak"}
+            </Text>
+            <Image
+              source={imageMap[hamaData?.image]}
+              style={{
+                width: 310,
+                height: 180,
+                marginBottom: 20,
+                margin: "auto",
+              }}
+            />
+            <Text
+              style={{ fontSize: 18, fontWeight: "bold", marginBottom: 10 }}
+            >
+              Nama Hama (Ilmiah): {hamaData?.scientifictName}
+            </Text>
+            <Text
+              style={{
+                fontSize: 18,
+                textAlign: "justify",
+                lineHeight: 28,
+              }}
+            >
+              Deskripsi Umum: {hamaData?.description}
+            </Text>
+          </ScrollView>
 
-      <View style={styles.buttonContainer}>
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => {
-            navigation.navigate("pages/solusi-non-kimiawi/index", {
-              id: hamaData?.id,
-              name: hamaData?.name,
-              nonChemicalSolution: hamaData?.nonChemicalSolution,
-              chemicalSolution: hamaData?.chemicalSolution,
-            });
-          }}
-        >
-          <Text style={styles.buttonText}>Solusi Non Kimiawi</Text>
-        </TouchableOpacity>
+          <View style={styles.buttonContainer}>
+            <TouchableOpacity
+              style={styles.button}
+              onPress={() => {
+                navigation.navigate("pages/solusi-non-kimiawi/index", {
+                  id: hamaData?.id,
+                  name: hamaData?.name,
+                  nonChemicalSolutionNature:
+                    hamaData?.nonChemicalSolutionNature,
+                  nonChemicalSolutionMixture:
+                    hamaData?.nonChemicalSolutionMixture,
+                  nonChemicalProduce: hamaData?.nonChemicalProduce,
+                  nonChemicalTips: hamaData?.nonChemicalTips,
+                });
+              }}
+            >
+              <Text style={styles.buttonText}>Solusi Non Kimiawi</Text>
+            </TouchableOpacity>
 
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => {
-            navigation.navigate("pages/solusi-kimiawi/index", {
-              id: hamaData?.id,
-              name: hamaData?.name,
-              chemicalSolution: hamaData?.chemicalSolution,
-            });
-          }}
-        >
-          <Text style={styles.buttonText}>Solusi Kimiawi</Text>
-        </TouchableOpacity>
-      </View></>
-      ) : <Text style={{fontSize: 20}}>Hama tidak terdeteksi!</Text>}
+            <TouchableOpacity
+              style={styles.button}
+              onPress={() => {
+                navigation.navigate("pages/solusi-kimiawi/index", {
+                  id: hamaData?.id,
+                  name: hamaData?.name,
+                  chemicalSolution: hamaData?.chemicalSolution,
+                });
+              }}
+            >
+              <Text style={styles.buttonText}>Solusi Kimiawi</Text>
+            </TouchableOpacity>
+          </View>
+        </>
+      ) : (
+        <Text style={{ fontSize: 20 }}>Hama tidak terdeteksi!</Text>
+      )}
     </View>
   );
 }
