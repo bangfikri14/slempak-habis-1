@@ -21,6 +21,10 @@ export default function DetailHamaPage() {
     nonChemicalProduce,
     nonChemicalTips,
     chemicalSolution,
+    chemicalSolutionInsecticide,
+    chemicalSolutionInsecticideSistemic,
+    chemicalProduce,
+    chemicalWarning,
   } = useLocalSearchParams();
   const navigation = useNavigation();
 
@@ -66,13 +70,12 @@ export default function DetailHamaPage() {
           style={styles.button}
           onPress={() => {
             navigation.navigate("pages/solusi-non-kimiawi/index", {
-              id: id,
-              name: name,
-              nonChemicalSolutionNature: nonChemicalSolutionNature,
-              nonChemicalSolutionMixture: nonChemicalSolutionMixture,
-              chemicalSolution: chemicalSolution,
-              nonChemicalProduce: nonChemicalProduce,
-              nonChemicalTips: nonChemicalTips,
+              id,
+              name,
+              nonChemicalSolutionNature,
+              nonChemicalSolutionMixture,
+              nonChemicalProduce,
+              nonChemicalTips,
             });
           }}
         >
@@ -83,9 +86,13 @@ export default function DetailHamaPage() {
           style={styles.button}
           onPress={() => {
             navigation.navigate("pages/solusi-kimiawi/index", {
-              id: id,
-              name: name,
-              chemicalSolution: chemicalSolution,
+              id,
+              name,
+              chemicalSolution,
+              chemicalSolutionInsecticide,
+              chemicalSolutionInsecticideSistemic,
+              chemicalProduce,
+              chemicalWarning,
             });
           }}
         >

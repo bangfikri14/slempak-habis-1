@@ -16,10 +16,6 @@
       "Minyak Kayu Putih: Meningkatkan efektivitas pestisida alami.",
       "Daun Bawang: Meningkatkan kekebalan tanaman."
     ],
-    "chemicalSolution": [
-      "Gunakan sabun insektisida atau semprotan Bt. Ulat dapat dikendalikan dengan menggunakan sabun insektisida atau Bacillus thuringiensis (Bt). Bt adalah bakteri yang menyebabkan ulat menjadi sakit dan mati. Mungkin perlu beberapa hari sebelum serangga mati, tetapi pemberian makan biasanya berhenti segera setelah penyemprotan. Ulat berukuran kecil lebih mudah dikendalikan dengan Bt daripada yang berukuran besar.",
-      "Gunakan semprotan insektisida. Insektisida umum yang mengendalikan ulat kubis meliputi piretrin, siflutrin, minyak nimba, dan spinosad."
-    ],
     "nonChemicalProduce": [
       "Campur bahan-bahan yang dipilih dengan air.",
       "Aduk rata dan biarkan selama 24 jam (jika diperlukan).",
@@ -32,6 +28,31 @@
       "Pastikan tanaman dalam keadaan lembab.",
       "Gunakan sarung tangan dan masker.",
       "Jangan menyemprotkan saat tanaman berbunga atau berbuah."
+    ],
+    "chemicalSolution": [],
+    "chemicalSolutionInsecticide": [
+      "Cypermethrin (10-20 ml/liter air): efektif melawan ulat dan serangga lainnya.",
+      "Permethrin (10-20 ml/liter air): menghambat pertumbuhan ulat.",
+      "Deltamethrin (5-10 ml/liter air): efektif melawan ulat dan serangga lainnya.",
+      "Chlorpyrifos (20-30 ml/liter air): menghambat aktivitas ulat."
+    ],
+    "chemicalSolutionInsecticideSistemic": [
+      "Imidacloprid (10-20 ml/liter air): efektif melawan ulat dan serangga lainnya.",
+      "Thiamethoxam (10-20 ml/liter air): menghambat pertumbuhan ulat."
+    ],
+    "chemicalProduce": [
+      "Campur insektisida dengan air sesuai dosis.",
+      "Semprotkan pada tanaman kubis, terutama pada bagian yang terserang ulat.",
+      "Lakukan penyemprotan pada pagi atau sore hari.",
+      "Ulangi penyemprotan setiap 3-4 hari sekali.",
+      "Gunakan sarung tangan dan masker."
+    ],
+    "chemicalWarning": [
+      "Ikuti petunjuk penggunaan pada label produk.",
+      "Jangan mengkonsumsi tanaman yang baru disemprotkan.",
+      "Hindari kontak langsung dengan insektisida.",
+      "Jangan menyemprotkan saat tanaman berbunga atau berbuah.",
+      "Konsultasikan dengan ahli pertanian jika perlu."
     ]
   },
   {
@@ -46,17 +67,7 @@
       "Daun Tembakau dan Air: Daun tembakau kering 10-20 gram, Air 1 liter, Sabun cair 1-2 sendok makan (opsional).",
       "Bakteri Bacillus thuringiensis (Bt): Bakteri Bt 1-2 sendok makan, Air 1 liter, Sabun cair 1-2 sendok makan (opsional)."
     ],
-    "nonChemicalSolutionMixture": [
-
-    ],
-    "chemicalSolution": [
-      "Insektisida sistemik: Fipronil (Regent 800 WG) - 0,5-1 ml/liter air.",
-      "Insektisida kontak: Siflutrin (Karate Zeon 5 CS) - 0,5-1 ml/liter air.",
-      "Insektisida organofosfat: Profenofos (Curacron 500 EC) - 1-2 ml/liter air.",
-      "Insektisida neem: Azadirachtin (Neem 0,03 EC) - 2-3 ml/liter air.",
-      "Imidacloprid (Confidor 200 SL): 0,5-1 ml/liter air.",
-      "Cypermethrin (Ambush 25 EC): 1-2 ml/liter air."
-    ],
+    "nonChemicalSolutionMixture": [],
     "nonChemicalProduce": [
       "Campur bahan-bahan yang dipilih dengan air.",
       "Aduk rata dan biarkan selama 24 jam (jika diperlukan).",
@@ -69,7 +80,19 @@
       "Pastikan tanaman dalam keadaan lembab.",
       "Gunakan sarung tangan dan masker.",
       "Jangan menyemprotkan saat tanaman berbunga atau berbuah."
-    ]
+    ],
+    "chemicalSolution": [
+      "Insektisida sistemik: Fipronil (Regent 800 WG) - 0,5-1 ml/liter air.",
+      "Insektisida kontak: Siflutrin (Karate Zeon 5 CS) - 0,5-1 ml/liter air.",
+      "Insektisida organofosfat: Profenofos (Curacron 500 EC) - 1-2 ml/liter air.",
+      "Insektisida neem: Azadirachtin (Neem 0,03 EC) - 2-3 ml/liter air.",
+      "Imidacloprid (Confidor 200 SL): 0,5-1 ml/liter air.",
+      "Cypermethrin (Ambush 25 EC): 1-2 ml/liter air."
+    ],
+    "chemicalSolutionInsecticide": [],
+    "chemicalSolutionInsecticideSistemic": [],
+    "chemicalProduce": [],
+    "chemicalWarning": []
   },
   {
     "id": "3",
@@ -94,6 +117,13 @@
       "Saring campuran untuk menghindari residu.",
       "Semprotkan campuran pada tanaman kubis, terutama pada bagian yang terserang ulat."
     ],
+    "nonChemicalTips": [
+      "Semprotkan pada pagi atau sore hari.",
+      "Ulangi penyemprotan setiap 3-4 hari sekali.",
+      "Pastikan tanaman dalam keadaan lembab.",
+      "Gunakan sarung tangan dan masker.",
+      "Jangan menyemprotkan saat tanaman berbunga atau berbuah."
+    ],
     "chemicalSolution": [
       "Fipronil (Regent 800 WG): 0,5-1 ml/liter air.",
       "Siflutrin (Karate Zeon 5 CS): 0,5-1 ml/liter air.",
@@ -103,13 +133,10 @@
       "Permethrin (Ambush 25 EC): 1-2 ml/liter air.",
       "Deltamethrin (Decis 2,5 EC): 0,5-1 ml/liter air."
     ],
-    "nonChemicalTips": [
-      "Semprotkan pada pagi atau sore hari.",
-      "Ulangi penyemprotan setiap 3-4 hari sekali.",
-      "Pastikan tanaman dalam keadaan lembab.",
-      "Gunakan sarung tangan dan masker.",
-      "Jangan menyemprotkan saat tanaman berbunga atau berbuah."
-    ]
+    "chemicalSolutionInsecticide": [],
+    "chemicalSolutionInsecticideSistemic": [],
+    "chemicalProduce": [],
+    "chemicalWarning": []
   },
   {
     "id": "4",
@@ -135,19 +162,23 @@
       "Saring campuran untuk menghindari residu.",
       "Siramkan campuran pada tanah sekitar tanaman kubis."
     ],
-    "chemicalSolution": [
-      "Fipronil (Regent 800 WG): 0,5-1 ml/liter air.",
-      "Siflutrin (Karate Zeon 5 CS): 0,5-1 ml/liter air.",
-      "Profenofos (Curacron 500 EC): 1-2 ml/liter air.",
-      "Imidacloprid (Confidor 200 SL): 0,5-1 ml/liter air."
-    ],
     "nonChemicalTips": [
       "Lakukan penyiraman pada pagi atau sore hari.",
       "Ulangi penyiraman setiap 3-4 hari sekali.",
       "Pastikan tanah dalam keadaan lembab.",
       "Gunakan sarung tangan dan masker.",
       "Jangan menyiramkan saat tanaman berbunga atau berbuah."
-    ]
+    ],
+    "chemicalSolution": [
+      "Fipronil (Regent 800 WG): 0,5-1 ml/liter air.",
+      "Siflutrin (Karate Zeon 5 CS): 0,5-1 ml/liter air.",
+      "Profenofos (Curacron 500 EC): 1-2 ml/liter air.",
+      "Imidacloprid (Confidor 200 SL): 0,5-1 ml/liter air."
+    ],
+    "chemicalSolutionInsecticide": [],
+    "chemicalSolutionInsecticideSistemic": [],
+    "chemicalProduce": [],
+    "chemicalWarning": []
   },
   {
     "id": 5,
@@ -173,6 +204,13 @@
       "Saring campuran untuk menghindari residu.",
       "Semprotkan campuran pada tanaman kubis, terutama pada bagian yang terserang kutu."
     ],
+    "nonChemicalTips": [
+      "Semprotkan pada pagi atau sore hari.",
+      "Ulangi penyemprotan setiap 3-4 hari sekali.",
+      "Pastikan tanaman dalam keadaan lembab untuk meningkatkan efektivitas.",
+      "Gunakan sarung tangan dan masker saat menyemprotkan.",
+      "Jangan menyemprotkan saat tanaman berbunga atau berbuah."
+    ],
     "chemicalSolution": [
       "Insektisida sistemik: Fipronil (Regent 800 WG) - 0,5-1 ml/liter air.",
       "Insektisida kontak: Siflutrin (Karate Zeon 5 CS) - 0,5-1 ml/liter air.",
@@ -180,12 +218,9 @@
       "Insektisida neem: Azadirachtin (Neem 0,03 EC) - 2-3 ml/liter air.",
       "Imidacloprid (Confidor 200 SL): 0,5-1 ml/liter air."
     ],
-    "nonChemicalTips": [
-      "Semprotkan pada pagi atau sore hari.",
-      "Ulangi penyemprotan setiap 3-4 hari sekali.",
-      "Pastikan tanaman dalam keadaan lembab untuk meningkatkan efektivitas.",
-      "Gunakan sarung tangan dan masker saat menyemprotkan.",
-      "Jangan menyemprotkan saat tanaman berbunga atau berbuah."
-    ]
+    "chemicalSolutionInsecticide": [],
+    "chemicalSolutionInsecticideSistemic": [],
+    "chemicalProduce": [],
+    "chemicalWarning": []
   }
 ]
