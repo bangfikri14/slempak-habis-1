@@ -4,14 +4,6 @@ import { FlatList, ScrollView, StyleSheet, Text, View } from "react-native";
 export default function SolusiKimiawiPage() {
   const { name, chemicalSolution } = useLocalSearchParams();
 
-  const alerts = [
-    "Baca petunjuk penggunaan Insektisida.",
-    "Gunakan peralatan pelindung diri.",
-    "Hindari penyemprotan saat tanaman saat tanaman berbunga atau berbuah.",
-    "Gunakan dosis yang tepat.",
-    "Konsultasikan dengan ahli pertanian atau petugas penyuluh pertanian."
-  ]
-
   return (
     <ScrollView>
       <View
@@ -21,36 +13,29 @@ export default function SolusiKimiawiPage() {
           justifyContent: "center",
         }}
       >
-        <Text style={{ fontSize: 23, fontWeight: "bold", marginBottom: 10 }}>
-          Untuk mengendalikan hama {name}, yaitu:
+        <Text
+          style={{
+            fontSize: 23,
+            fontWeight: "bold",
+            lineHeight: 34,
+            marginBottom: 10,
+          }}
+        >
+          Berikut beberapa solusi kimia untuk pemberantasan {name} pada tanaman
+          kubis:
         </Text>
-        <FlatList
-          data={chemicalSolution}
-          keyExtractor={(item) => item.id?.toString()}
-          renderItem={({ item }) => (
+        <View style={{ marginBottom: 20 }}>
+          {chemicalSolution.map((item, index) => (
             <View style={styles.listItem} key={item.id?.toString()}>
               <Text style={styles.bullet}>•</Text>
               <Text style={styles.text}>{item}</Text>
             </View>
-          )}
-          style={{marginBottom: 50}}
-        />
-        <Text style={{ fontSize: 23, fontWeight: "bold", marginBottom: 10 }}>
-          MANGAN RAWON NANG TEMANGGUNG:
-        </Text>
-        {alerts.map((alert) => (
-          <>
-          <View style={styles.listItem} key={alert.id?.toString()}>
-              <Text style={styles.bullet}>•</Text>
-              <Text style={styles.text}>{alert}</Text>
-            </View>
-          </>
-        ))}
+          ))}
+        </View>
       </View>
     </ScrollView>
   );
 }
-
 
 const styles = StyleSheet.create({
   listItem: {
@@ -67,6 +52,6 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
     flexShrink: 1,
     lineHeight: 34,
-    textAlign:"justify"
+    textAlign: "justify",
   },
 });

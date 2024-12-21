@@ -16,7 +16,10 @@ export default function DetailHamaPage() {
     scientifictName,
     image,
     description,
-    nonChemicalSolution,
+    nonChemicalSolutionNature,
+    nonChemicalSolutionMixture,
+    nonChemicalProduce,
+    nonChemicalTips,
     chemicalSolution,
   } = useLocalSearchParams();
   const navigation = useNavigation();
@@ -65,8 +68,11 @@ export default function DetailHamaPage() {
             navigation.navigate("pages/solusi-non-kimiawi/index", {
               id: id,
               name: name,
-              nonChemicalSolution: nonChemicalSolution,
+              nonChemicalSolutionNature: nonChemicalSolutionNature,
+              nonChemicalSolutionMixture: nonChemicalSolutionMixture,
               chemicalSolution: chemicalSolution,
+              nonChemicalProduce: nonChemicalProduce,
+              nonChemicalTips: nonChemicalTips,
             });
           }}
         >
